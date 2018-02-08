@@ -6,11 +6,15 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="HandheldFriendly" content="true">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>ULI - Author</title>
+<title>ARC</title>
 <style>
 body{
 font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 overflow: hidden;
+}
+
+a{
+color: rgb(85,85,85);
 }
 
 hr{
@@ -87,25 +91,19 @@ background-color: rgb(230,230,230);
 
 
 <div id="mainDiv">
-<img id="fulllogo" src="full_logo.png"><br><br><br>
+<img id="fulllogo" src="arc_logo.png"><br><br><br>
 <div id="contentDiv">
 <span style="font-size:25px;font-weight:bold;">Why this App?</span>
 <br><br>
-To be able to read and provide accurate transcriptions of speech sounds is the most fundamental and yet most demanding task facing students of language and linguistics. This app provides:<br>
-<table id="contentTable">
-    <tr>
-        <td class="contentTableTd_icon"><img class="wtaimg" src="wtaimg/image013.png"></td>
-        <td class="contentTableTd_cont">Comprehensive coverage of the consonants, vowels and tonal symbols for transcription of the world’s languages</td>
-    </tr>
-    <tr>
-        <td class="contentTableTd_icon"><img class="wtaimg" src="wtaimg/image014.png"></td>
-        <td class="contentTableTd_cont">Clear graphic, audio and textual descriptions of speech sounds</td>
-    </tr>
-    <tr>
-        <td class="contentTableTd_icon"><img class="wtaimg" src="wtaimg/image014.png"></td>
-        <td class="contentTableTd_cont">A fun and interactive learning environment</td>
-    </tr>
-</table>
+Principles of Economics is a glossary mobile app of economic terms, with animated videos and interactive exercises that support the learning of economics.<br><br>The app covers the microeconomics topics in the course of AF3625 Engineering Economics (The Hong Kong Polytechnic University). It is designed to help you to:
+                    <ol>
+                        <li>Learn economics at anytime and anywhere<br><br></li>
+                        <li>Get familiar with economics concepts <br><br></li>
+                        <li>Prepare for lectures<br><br></li>
+                        <li>Test and strengthen your understanding of concepts covered in lectures<br><br></li>
+                    </ol>
+    
+    <br><br>
 </div>
 </div>
 
@@ -123,17 +121,14 @@ document.body.style.webkitUserSelect='none';
 }
 
 function toBack(){
-//location.href='toback://yes';
-Android.toBack();
+location.href='toback://yes';
 }
 
 function toNext(){
-//location.href='tonext://yes';
-Android.toNext();
+location.href='tonext://yes';
 }
 
 function closeView(){
-//location.href='close://yes';
 Android.closePage();
 }
 </script>
