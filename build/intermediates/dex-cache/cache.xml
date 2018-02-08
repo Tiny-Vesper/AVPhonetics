@@ -2,148 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_2a0916ba1858b2e63ce6b216b85c0de2da3fbb08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="1f23e49f013c8daa3b90b490d5ca1f4cbb69b2aa">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e687b1c26122937b1705250d71a6dc51c515048c/classes.dex" />
-    </item>
-    <item
         is-multidex="false"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_2a0916ba1858b2e63ce6b216b85c0de2da3fbb08.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_25e72cbfa5665a2782c176f427948334fcbf5315.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_670462f2abb5e9c83bcb4cff32217a5b2722ed18/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_8b40648041234127fee70842274860eefaeaa4c4/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.1.1_670462f2abb5e9c83bcb4cff32217a5b2722ed18.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/com.android.support-design-23.1.1_8b40648041234127fee70842274860eefaeaa4c4.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_25e72cbfa5665a2782c176f427948334fcbf5315/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_8c2a2cbe1995e464cf1de95b6de523512dae46e8/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/libs/android-async-http-1.4.9.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/android-async-http-1.4.9_98548259b45154c1a86d74ec81f1154487869b8d.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/libs/android-async-http-1.4.9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.9_98548259b45154c1a86d74ec81f1154487869b8d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_dc977d20a6a7d9676d8fd9f25735812f05d30732/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="22.0.1"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_8c2a2cbe1995e464cf1de95b6de523512dae46e8.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="3fab7978cb816150d1e67167d6047a9bdb5ac70d">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6572c4f6717a89b24231b73bf50b270470c71fd6/classes.dex" />
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_819a3e275fd9c8062789f2d609980e5d3f05d10e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/Users/arc1/Documents/GitHub/AVPhonetics/app/libs/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_0d231084df5fbf501d9da8e28acee11e523c3f24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="22.0.1"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_dc977d20a6a7d9676d8fd9f25735812f05d30732.jar" />
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_44adad4e7eeac0d98515f17a671e5230060ee236.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_ca06cf7b17d41f7899455008fae229a1014a6a84.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_42c04cbc88d1c899e689b706cdf9eee609abb002.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_ffb9409584aca9dd1c0b1fb2d22fefa43288fede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/arc1/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_9987e3d186356c101740a79f76d502bc7235e749.jar" />
     </item>
 
 </items>

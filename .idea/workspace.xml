@@ -6,7 +6,186 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19e684ef-29b4-4595-a902-85f64d1469a1" name="Default" comment="" />
+    <list default="true" id="19e684ef-29b4-4595-a902-85f64d1469a1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_jars____Users_arc1_Documents_GitHub_AVPhonetics_app_libs_android_async_http_1_4_9_jar_unspecified_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/YcaBzZSbYRYP3xPqkB6LXUdZPjc=" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_2a0916ba1858b2e63ce6b216b85c0de2da3fbb08/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_8b40648041234127fee70842274860eefaeaa4c4/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_670462f2abb5e9c83bcb4cff32217a5b2722ed18/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_dc977d20a6a7d9676d8fd9f25735812f05d30732/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e687b1c26122937b1705250d71a6dc51c515048c/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6572c4f6717a89b24231b73bf50b270470c71fd6/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_8c2a2cbe1995e464cf1de95b6de523512dae46e8/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_25e72cbfa5665a2782c176f427948334fcbf5315/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-async-http-1.4.9_98548259b45154c1a86d74ec81f1154487869b8d/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AVPhonetics.iml" afterPath="$PROJECT_DIR$/AVPhonetics.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/splash_web/old/agree.html" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/splash_web/old/agree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-am.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ar.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bg.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-cs.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-da.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-de.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-el.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-es.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fa.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-fr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h320dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-in.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-it.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-iw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ko.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldrtl-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ldrtl-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-lv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-nl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-port.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-pt.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ro.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ru.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sv.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-th.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-tr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uk.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v12.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v17.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v18.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v22.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-vi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-land-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-zu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-hdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-mdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/mipmap-xxxhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/splash_web/old/about.html" afterPath="$PROJECT_DIR$/app/src/main/assets/splash_web/old/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/splash_web/old/agree.html" afterPath="$PROJECT_DIR$/app/src/main/assets/splash_web/old/agree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+    </list>
     <ignored path="AVPhonetics.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,39 +216,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="activity_about.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="in_from_right.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/in_from_right.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="out_to_left.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/out_to_left.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="activity_home.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
           <provider selected="true" editor-type-id="android-designer2">
@@ -106,8 +252,8 @@
       <file leaf-file-name="cConsonantContentActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/cConsonantContentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,18 +275,45 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookmarksHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/old/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="98" column="20" lean-forward="false" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="full_logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/full_logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agree.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/old/agree.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="115" column="15" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookmarksHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/BookmarksHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="72" column="69" lean-forward="false" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -148,10 +321,23 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>full</find>
+    </findStrings>
+  </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../avphonetics.jks" />
     <option name="KEY_ALIAS" value="com.hkbu.ulip.avphonetics" />
     <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1685,11 +1871,13 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/templateprj/ulip/hkbu/com/templateproject/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/BookmarksHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/splash_web/old/agree.html" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/splash_web/old/about.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="2560" />
+    <option name="width" value="1799" />
     <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
@@ -1708,7 +1896,9 @@
     </navigator>
     <panes>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1719,46 +1909,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AVPhonetics" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AVPhonetics" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anim" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1807,88 +1957,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AVPhonetics" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AVPhonetics" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templateproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AVPhonetics" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templateproject" />
+              <option name="myItemId" value="splash_web" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="splash" />
+              <option name="myItemId" value="old" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AVPhonetics" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templateproject" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="splash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AboutActivity.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1907,8 +1981,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1920,12 +1992,13 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="device.picker.selection" value="LGH525n3ac2caea" />
+    <property name="device.picker.selection" value="192.168.56.101:5555" />
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/.." />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="FullScreen" value="true" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1517815395390" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1518079971982" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2010,7 +2083,55 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1517886831639" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518082702912" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+      </Profilers>
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518082702912" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2025,6 +2146,89 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AVPhonetics" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
       <method />
     </configuration>
@@ -2110,7 +2314,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1517886831639" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518082702913" />
       </method>
     </configuration>
     <list size="1">
@@ -2146,9 +2350,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="0" width="1799" height="1440" extended-state="0" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21938775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2157,17 +2361,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18625894" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26693228" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2195,11 +2399,100 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/in_from_right.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/out_to_left.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/avphonetic/about2vc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/splash/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/cConsonantContentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/TemplateActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/BookmarksHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2236,7 +2529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10428">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2244,7 +2536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-454">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2315,8 +2606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/cConsonantContentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2329,21 +2620,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/BookmarksHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="72" column="69" lean-forward="false" selection-start-line="72" selection-start-column="69" selection-end-line="72" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/templateprj/ulip/hkbu/com/templateproject/BookmarksHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/full_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/old/agree.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="115" column="15" lean-forward="true" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/splash_web/old/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="98" column="20" lean-forward="false" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
           <folding />
         </state>
       </provider>
