@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Game</title>
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="phoneappbuilder.js"></script>
+<style>
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+@media(max-height: 480px){ /* iPhone 4 */
+
+}
+
+@media(min-height: 481px) and (max-height: 568px){ /* iPhone 5 */
+
+}
+
+@media(min-height: 569px) and (max-height: 667px){ /* iPhone 6 */
+
+}
+
+@media(min-height: 668px) and (max-height: 959px){ /* iPhone 6 Plus */
+
+}
+
+@media(min-height: 960px) and (min-width: 768px){  /* iPad */
+
+}
+
+
+
+body{
+font-family: 'OpenSansLight';
+background-color: #1F1617;
+background-image: url('game/background_1.png');
+background-size: 100% auto;
+}
+
+#marksDiv{
+position: absolute;
+top: 0%;
+right: 2%;
+width: 35%;
+font-size: 30pt;
+color: red;
+font-family: 'OpenSansRegular';
+overflow: hidden;
+text-align: right;
+}
+
+#mainView{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+
+
+/* GAME */
+
+.GameObject{
+position: absolute;
+width: 40pt;
+height: 40pt;
+background-size: 100% 100%;
+border-radius: 5px;
+/* background-image: url('game/obj_bg_2.png'); */
+}
+
+</style>
+</head>
+<body style="overflow:hidden;">
+
+
+<div id="mainView"></div>
+
+<div id="marksDiv">0</div>
+
+
+<script type="text/javascript">
+var win_w=$(window).width();
+var win_h=$(window).height();
+var dropDuration=3;
+var nowRound={"isEnded":function(){return true;}};
+var ansfile=["010101","010102","010201","010202","010301","010302","010401","010402","010501","010502","010601","010602","010701","020101","020201","020301","020401","020501","020601","020701","030101","030201","030301","040101","040201","040301","050101","050102","050201","050202","050301","050302","050401","050402","050501","050502","050601","050602","050701","050702","050801","050802","050901","050902","051001","051002","051101","051102","060101","060102","070101","070201","070301","070401","070501","080101","080201","080301","080401"];
+var soundPlayer=new PABAudioObject(null,null,false,false);
+var marks=0;
+var displayed=[];
+var paused=false;
+
+
+
+
+function Round(){
+this.num=Math.floor((Math.random()*ansfile.length)+0);
+/*
+for(var i in displayed){
+while(this.num==displayed[i]){this.num=Math.floor((Math.random()*ansfile.length)+0);}
+}
+*/
+displayed.push(this.num);
+this.objArr=[];
+this.willberighted=[];
+this.unreleased=20;
+this.ended=false;
+soundPlayer.setSrc('consonants/'+ansfile[this.num]+'/sound.mp3');
+soundPlayer.play();
+// Create 20 objects, 4 objects are right
+var willberighted_1=Math.floor((Math.random()*20)+1);
+var willberighted_2=Math.floor((Math.random()*20)+1);
+while(willberighted_2==willberighted_1){willberighted_2=Math.floor((Math.random()*20)+1);}
+var willberighted_3=Math.floor((Math.random()*20)+1);
+while(willberighted_3==willberighted_1 || willberighted_3==willberighted_2){willberighted_3=Math.floor((Math.random()*20)+1);}
+var willberighted_4=Math.floor((Math.random()*20)+1);
+while(willberighted_4==willberighted_1 || willberighted_4==willberighted_2 || willberighted_4==willberighted_3){willberighted_4=Math.floor((Math.random()*20)+1);}
+this.willberighted=[willberighted_1,willberighted_2,willberighted_3,willberighted_4];
+for(var i=0; i<this.unreleased ;i++){
+var anspic=-1;
+if(i==willberighted_1)anspic=this.num;
+else if(i==willberighted_2)anspic=this.num;
+else if(i==willberighted_3)anspic=this.num;
+else if(i==willberighted_4)anspic=this.num;
+else{
+anspic=Math.floor((Math.random()*ansfile.length)+0);
+while(anspic==willberighted_1 || anspic==willberighted_2 || anspic==willberighted_3 || anspic==willberighted_4){
+anspic=Math.floor((Math.random()*ansfile.length)+0);
+}
+}
+var left=Math.floor((Math.random()*(win_w-80))+1);
+var box=new Box(this,i,anspic,left,i*1100);
+this.objArr.push(box);
+}
+}
+
+Round.prototype.isEnded=function(){
+return this.ended;
+}
+
+Round.prototype.releaseBox=function(_box){
+for(var i in this.objArr){
+if(this.objArr[i]==_box)this.objArr.splice(i,1);
+}
+_box.release();
+this.unreleased--;
+if(this.unreleased==0)this.ended=true;
+}
+
+
+
+function Box(_father,_index,_anspic,_left,_delay){
+this.father=_father;
+this.index=_index;
+this.anspic=_anspic;
+this.delay=_delay;
+this.isRight=false;
+var self=this;
+this.htmlObject=document.createElement('img');
+this.htmlObject.setAttribute('class','GameObject');
+this.htmlObject.src='wordpic/'+(this.anspic+1)+'.png';
+this.htmlObject.style.top='-80px';
+this.htmlObject.style.left=_left+'px';
+this.htmlObject.style.backgroundImage="url('game/obj_bg_2.png')";
+var hpab=toPABObject(this.htmlObject);
+hpab.doMouseEvent('mousedown',function(){self.touch();});
+this.timer=null;
+var delaytime=0;
+var dtimer=setInterval(function(){
+if(!paused){
+delaytime+=100;
+if(delaytime>=self.delay){
+self.timer=setInterval(function(){
+if(!paused){
+self.htmlObject.style.top=(parseInt(self.htmlObject.style.top)+1)+'px';
+if(parseInt(self.htmlObject.style.top)>=win_h-80){
+if(self.isRight)clearTimeout(self.timer);
+else self.father.releaseBox(self);
+}
+}
+},7);
+clearInterval(dtimer);
+}
+}
+},100);
+document.getElementById('mainView').appendChild(this.htmlObject);
+}
+
+Box.prototype.release=function(){
+try{
+if(this.isRight){
+this.htmlObject.style.backgroundImage='';
+this.htmlObject.src='game/coin_2.png';
+}else{
+clearTimeout(this.timer);
+this.htmlObject.parentNode.removeChild(this.htmlObject);
+}
+}catch(e){}
+}
+
+Box.prototype.touch=function(){
+if(paused)return;
+for(var i in this.father.willberighted){
+if(this.index==this.father.willberighted[i]){
+this.isRight=true;
+marks+=100;
+document.getElementById('marksDiv').innerHTML=marks;
+this.father.releaseBox(this);
+break;
+}
+}
+}
+
+
+
+
+setInterval(function(){
+if(nowRound.isEnded()){
+var round=new Round();
+nowRound=round;
+}
+},1000);
+
+
+window.onkeydown=function(e){
+if(e.keyCode==32){ // Pause or Resume
+paused=!paused;
+}
+}
+</script>
+
+</body>
+</html>

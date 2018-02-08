@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Vowels</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 3%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: black;
+font-size: 12.5pt;
+width: 98%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(217,222,193);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+#vowelsimg{
+    width: 100%;
+}
+
+.CSSButton{
+    display: table;
+    width: 82%;
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    margin: 0 auto;
+    /* background-color: rgb(90,90,90); */
+    background-image: url('media/nd/vowel_button.png');
+    background-size: 100% 100%;
+    color: white;
+}
+
+.CSSButtonTr{
+    display: table-row;
+}
+
+.CSSButtonTd{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+#imgPopUp{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+#imgInPopUp{
+    height: 100%;
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+
+<img id="vowelsimg" src="vowels.png" ontouchend="toNext();"><br><br>
+
+In the articulation of vowels, the tongue body may either be raised (towards the palatal area) or be lowered. The utmost raised tongue position for a vowel is describe as close (or high). When the tongue body is lowered to its utmost, the position is described as open. In between close and open positions, there are two others: close-mid and open-mid. The tongue body could be retracted to the back towards the pharynx or pushed to the front towards the teeth. When the tongue is neither retracted nor fronted, the position is  central. In the production of vowels, lips can be rounded or unrounded to change the quality of the sound.
+<br>
+
+</div>
+</div>
+
+
+
+<div id="imgPopUp" style="display:none;">
+    <img id="imgInPopUp" src="vowels.jpg"><br><span ontouchend="document.getElementById('imgPopUp').style.display='none';isInImg=false;" style="color:white;font-size:18pt;">Close</span>
+</div>
+
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+function toNext(){
+    //location.href='tovs://';
+	Android.toVS();
+}
+
+
+
+
+
+
+var isInImg=false;
+
+//document.getElementById('vowelsimg').ontouchend=function(){document.getElementById('imgPopUp').style.display='';isInImg=true;};
+
+
+
+var imgpHeight=100;
+
+
+function scaleImg(_scale){
+    document.getElementById('imgInPopUp').style.height=(imgpHeight*_scale)+'%';
+}
+
+
+window.onload=function(){
+    
+    function gestureChange(e){
+        e.preventDefault();
+        if(isInImg)scaleImg(e.scale);
+    }
+    
+    function gestureEnd(e){
+        e.preventDefault();
+        imgpHeight=parseInt(document.getElementById('imgInPopUp').style.height);
+    }
+    
+    window.addEventListener("gesturechange",gestureChange,false);
+    window.addEventListener("gestureend",gestureEnd,false);
+    
+};
+
+</script>
+</body>
+</html>

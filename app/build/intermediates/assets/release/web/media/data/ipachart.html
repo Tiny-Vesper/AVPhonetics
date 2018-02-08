@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script type="text/javascript" src="phoneappbuilder.js"></script>
+<style>
+    
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+@media(max-width: 320px){
+    
+}
+
+@media(min-width: 321px){
+    
+}
+
+body{
+    background-color: rgb(217,222,193);
+    font-family: 'OpenSansRegular';
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+}
+
+a{
+color: black;
+text-decoration: none;
+}
+
+#creditmsg{
+font-size: 18pt;
+}
+
+#creditmsg a{
+color: rgb(100,100,100);
+}
+
+#maintable{
+position: absolute;
+top: 15%;
+left: 0%;
+width: 100%;
+border: 0;
+border-spacing: 0px;
+}
+
+#maintable td{
+width: 100%;
+height: 100%;
+text-align: center;
+vertical-align: middle;
+padding: 0px;
+}
+
+#ipachartimg{
+width: 80%;
+}
+
+
+
+#imgPopUp{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+#imgInPopUp{
+    height: 120%;
+}
+</style>
+</head>
+<body>
+
+
+<table id="maintable">
+<tr><td>Click to enlarge<br><img id="ipachartimg" src="ipachart.png"><br><br></td></tr>
+</table>
+
+<div id="imgPopUp" style="display:none;">
+    <img id="imgInPopUp" src="ipachart.png"><br><span ontouchend="document.getElementById('imgPopUp').style.display='none';isInImg=false;" style="color:white;font-size:18pt;">Close</span>
+</div>
+
+
+<script type="text/javascript">
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+
+
+
+
+
+var isInImg=false;
+
+document.getElementById('ipachartimg').ontouchend=function(){document.getElementById('imgPopUp').style.display='';isInImg=true;};
+
+
+
+var imgpHeight=100;
+
+
+function scaleImg(_scale){
+    document.getElementById('imgInPopUp').style.height=(imgpHeight*_scale)+'%';
+}
+
+
+window.onload=function(){
+    
+    function gestureChange(e){
+        e.preventDefault();
+        if(isInImg)scaleImg(e.scale);
+    }
+    
+    function gestureEnd(e){
+        e.preventDefault();
+        imgpHeight=parseInt(document.getElementById('imgInPopUp').style.height);
+    }
+    
+    window.addEventListener("gesturechange",gestureChange,false);
+    window.addEventListener("gestureend",gestureEnd,false);
+    
+};
+</script>
+
+</body>
+</html>

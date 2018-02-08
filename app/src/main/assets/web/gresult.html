@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Result</title>
+<script type="text/javascript" src="ddtags.js"></script>
+<link rel="stylesheet" type="text/css" href="ddtags_css.css"></link>
+<style>
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: auto;
+color: rgb(217,222,193);
+background-color: rgb(80,54,56);
+}
+
+#resultDiv{
+font-family: "OpenSansRegular";
+font-size: 33pt;
+text-align: center;
+}
+
+#msg1{
+text-align: center;
+font-size: 19pt;
+}
+
+#msg2{
+text-align: center;
+font-size: 35pt;
+}
+
+.MButton{
+position: absolute;
+background-color: rgba(0,0,0,0);
+width: 60%;
+height: 51pt;
+margin: 0 auto;
+border: 3px dashed rgb(80, 54, 56);
+border-radius: 3px;
+line-height: 1;
+background-color: rgb(217,222,193);
+}
+
+.MButton td{
+color: rgb(80,54,56);
+font-size: 23pt;
+font-family: "OpenSansRegular";
+}
+</style>
+</head>
+<body>
+
+<div id="resultDiv">Result</div>
+<br><br><br><br><br>
+<div id="msg1">You've already got</div>
+<br>
+<div id="msg2">~ 0 pts! ~</div>
+
+
+<ddtag:btn class="MButton" id="mb0" style="bottom:26%;left:20%;" onsvcclick="mb0c();">Retry</ddtag:btn>
+<ddtag:btn class="MButton" id="mb1" style="bottom:10%;left:20%;" onsvcclick="mb1c();">Go Back</ddtag:btn>
+
+
+<script type="text/javascript">
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+ddtags_action();
+}
+
+function mb0c(){
+location.href='retry://yes';
+}
+
+function mb1c(){
+location.href='back://yes';
+}
+
+function setMarks(_marks){
+document.getElementById('msg2').innerHTML='~ '+_marks+' pts! ~';
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Vowels</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 3%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: black;
+font-size: 12.5pt;
+width: 98%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(217,222,193);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+#vowelsimg{
+    width: 100%;
+}
+
+.CSSButton{
+    display: table;
+    width: 82%;
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    margin: 0 auto;
+    background-color: rgb(150,150,150);
+    color: black;
+}
+
+.CSSButtonTr{
+    display: table-row;
+}
+
+.CSSButtonTd{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nameTitle{
+	width: 100%;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#descriptionArea{
+    font-size: 15pt;
+}
+
+#descriptionArea span{
+    background-color: rgb(100,71,73);
+    color: white;
+}
+
+#hr1{
+border: 0;
+height: 1px;
+background-color: rgb(163,163,163);
+width: 92%;
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+
+<br><br><br>
+<div id="nameTitle"></div>
+<hr id="hr1">
+
+<br><br>
+
+<span id="descriptionArea"></span>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+var name='';
+var description='';
+var json=null;
+
+function setInName(_name, _description){
+    name=_name;
+    description=_description;
+    document.getElementById('nameTitle').innerHTML=name;
+    document.getElementById('descriptionArea').innerHTML=description;
+}
+
+function setJson(_json,_name){
+    json=_json;
+    for(var i in json){
+        if(json[i].name==_name){
+            setInName(_name, json[i].description);
+        }
+    }
+}
+
+function gotog(_name){
+    if(json==null)return;
+    _name=_name.toLowerCase();
+    for(var i=0; i<json.length; i++){
+        if(json[i].name.toLowerCase()==_name){
+            //location.href='gotog://'+i;
+            Android.toNext(i);
+            //setInName(json[i].name, json[i].description);
+        }
+    }
+}
+
+</script>
+</body>
+</html>

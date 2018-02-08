@@ -1,0 +1,142 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:3:5-56
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:6:9-47
+application
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:9:5-42:19
+MERGED from [com.android.support:design:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:13:9-35
+	android:allowBackup
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:14:9-40
+activity#templateprj.ulip.hkbu.com.templateproject.splash.MainActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:15:19-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:19:27-74
+activity#templateprj.ulip.hkbu.com.templateproject.splash.WTAActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:22:9-56
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:22:19-53
+activity#templateprj.ulip.hkbu.com.templateproject.splash.AgreeActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:23:9-58
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:23:19-55
+activity#templateprj.ulip.hkbu.com.templateproject.TemplateActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:24:9-54
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:24:19-51
+activity#templateprj.ulip.hkbu.com.templateproject.HomeActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:25:9-50
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:25:19-47
+activity#templateprj.ulip.hkbu.com.templateproject.splash.PasswordActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:26:9-61
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:26:19-58
+activity#templateprj.ulip.hkbu.com.templateproject.splash.WTA2Activity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:27:9-57
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:27:19-54
+activity#templateprj.ulip.hkbu.com.templateproject.splash.AboutActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:28:9-58
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:28:19-55
+activity#templateprj.ulip.hkbu.com.templateproject.IntroductionActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:29:9-58
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:29:19-55
+activity#templateprj.ulip.hkbu.com.templateproject.ContentActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:30:9-53
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:30:19-50
+activity#templateprj.ulip.hkbu.com.templateproject.IPAChartPDFActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:31:9-57
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:31:19-54
+activity#templateprj.ulip.hkbu.com.templateproject.cVowelsActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:32:9-53
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:32:19-50
+activity#templateprj.ulip.hkbu.com.templateproject.cTonesActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:33:9-52
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:33:19-49
+activity#templateprj.ulip.hkbu.com.templateproject.cOthersActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:34:9-53
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:34:19-50
+activity#templateprj.ulip.hkbu.com.templateproject.cGlossaryActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:35:9-55
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:35:19-52
+activity#templateprj.ulip.hkbu.com.templateproject.GameActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:36:9-50
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:36:19-47
+activity#templateprj.ulip.hkbu.com.templateproject.cArticulatorActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:37:9-58
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:37:19-55
+activity#templateprj.ulip.hkbu.com.templateproject.cConsonantActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:38:9-56
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:38:19-53
+activity#templateprj.ulip.hkbu.com.templateproject.cConsonantContentActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:39:9-63
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:39:19-60
+activity#templateprj.ulip.hkbu.com.templateproject.cVowelsSoundActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:40:9-58
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:40:19-55
+activity#templateprj.ulip.hkbu.com.templateproject.GlossaryDetailActivity
+ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:41:9-60
+	android:name
+		ADDED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml:41:19-57
+uses-sdk
+INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] /Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Downloads/Android/AVPhonetics/app/src/main/AndroidManifest.xml

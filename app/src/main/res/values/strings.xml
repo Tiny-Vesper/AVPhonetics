@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AV Phonetics</string>
+    <string name="title_activity_glossary_detail">GlossaryDetailActivity</string>
+</resources>

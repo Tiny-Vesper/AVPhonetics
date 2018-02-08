@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" type="text/css" href="ddtags_css.css">
+<script type="text/javascript" src="ddtags.js"></script>
+<title>Vowels</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 3%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: black;
+font-size: 12.5pt;
+width: 98%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(217,222,193);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+#vowelsimg{
+    width: 100%;
+}
+
+.CSSButton{
+    display: table;
+    width: 82%;
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    margin: 0 auto;
+    background-color: rgb(150,150,150);
+    color: black;
+}
+
+.CSSButtonTr{
+    display: table-row;
+}
+
+.CSSButtonTd{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.FirstTable{
+    width: 88%;
+    margin: 0 auto;
+    border: 0;
+    border-spacing: 0px 8px;
+}
+
+.FirstTable td{
+    text-align: center;
+    vertical-align: middle;
+    /border: 0;
+}
+
+.FirstTable td a{
+    color: black;
+}
+
+.FirstTable span{
+	padding-left: 18pt;
+	padding-right: 18pt;
+	/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.FirstTd_Title{
+    /* background-color: rgb(210,210,210); */
+}
+
+.SecondTable{
+    width: 88%;
+    margin: 0 auto;
+    border-spacing: 0pt;
+}
+
+.SecondTable td{
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.SecondTable td a{
+    color: black;
+}
+
+.SecondTd_Title{
+    /* background-color: rgb(210,210,210); */
+}
+
+.Chibtn{
+	padding-left: 20pt;
+	padding-right: 20pt;
+	height: 33pt;
+	background-color: rgba(0,0,0,0);
+    background-image: url('media/nd/tones_button.png');
+    background-size: 100% 100%;
+	/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+	padding-top: 2px;
+	padding-bottom: 9px;
+	margin: 0 auto;
+}
+
+.Chibtn td{
+background-color: rgba(0,0,0,0);
+}
+
+.FTButton{
+margin: 0 auto;
+width: 80pt;
+height: 33pt;
+padding-bottom: 7px;
+background-color: rgba(0,0,0,0);
+background-image: url('media/nd/tones_button.png');
+background-size: 100% 100%;
+/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+
+It is noteworthy that there are other systems for tonal notation. Among them, Chao's (1930) System of Tone Letters is most common among Chinese linguists. Inspired by music, Chao uses a scale from 1 to 5 to indicate the lowest to the highest tone. Thus, by using a sequence of these numbers, one can effectively indicate the shape of any tone, contour or level. For example, [55] would indicate a high flat tone since it begins with the high tone [5] and ends with another high tone [5]; [51] would be a falling tone spanning the entire range starting fro the high [5] to the low [1]. To listen to what these tones sound like, try clicking on any links below:
+<br><br>
+
+<table class="FirstTable" id="ftable_1">
+    <tr><td class="FirstTd_Title">Level tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('01');" svcobj="contentDiv">[55]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('02');" svcobj="contentDiv">[44]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('03');" svcobj="contentDiv">[33]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('04');" svcobj="contentDiv">[22]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('05');" svcobj="contentDiv">[11]</ddtag:btn></td></tr>
+</table>
+
+<br>
+
+<table style="width:100%;border-spacing:0pt 15pt;">
+<tr>
+<td>
+<table class="FirstTable" id="ftable_2">
+    <tr><td class="FirstTd_Title">Rising tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('06');" svcobj="contentDiv">[15]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('07');" svcobj="contentDiv">[35]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('08');" svcobj="contentDiv">[13]</ddtag:btn></td></tr>
+</table>
+</td>
+<td>
+<table class="FirstTable" id="ftable_3">
+    <tr><td class="FirstTd_Title">Falling tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('09');" svcobj="contentDiv">[51]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('10');" svcobj="contentDiv">[53]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('11');" svcobj="contentDiv">[31]</ddtag:btn></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class="FirstTable" id="ftable_4">
+    <tr><td class="FirstTd_Title">Concave tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('12');" svcobj="contentDiv">[515]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('13');" svcobj="contentDiv">[535]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('14');" svcobj="contentDiv">[313]</ddtag:btn></td></tr>
+</table>
+</td>
+<td>
+<table class="FirstTable" id="ftable_5">
+    <tr><td class="FirstTd_Title">Convex tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('15');" svcobj="contentDiv">[151]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('16');" svcobj="contentDiv">[353]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('17');" svcobj="contentDiv">[131]</ddtag:btn></td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+<br><br>
+The tones you hear above are artificially generated and hence are relatively easy to perceive. In actual language articulation, it is much harder to discern the contours of each tone. Classroom training is required to achieve that kind of competence. Below are some examples from the Cantonese syllable [fen].
+<br><br>
+
+<table class="SecondTable">
+    <tr><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('colourful');" svcobj="contentDiv">纷</ddtag:btn></td><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('grave');" svcobj="contentDiv">坟</ddtag:btn></td></tr>
+    <tr><td>"colourful"</td><td>"grave"</td></tr>
+    <tr><td>[55]</td><td>[21]</td></tr>
+    <tr><td colspan="2" style="height:15pt;"></td></tr>
+    <tr><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('powder');" svcobj="contentDiv">粉</ddtag:btn></td><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('wrath');" svcobj="contentDiv">愤</ddtag:btn></td></tr>
+    <tr><td>"powder"</td><td>"wrath"</td></tr>
+    <tr><td>[35]</td><td>[13]</td></tr>
+    <tr><td colspan="2" style="height:15pt;"></td></tr>
+    <tr><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('sleep');" svcobj="contentDiv">瞓</ddtag:btn></td><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('share');" svcobj="contentDiv">份</ddtag:btn></td></tr>
+    <tr><td>"sleep"</td><td>"share"</td></tr>
+    <tr><td>[33]</td><td>[22]</td></tr>
+</table>
+
+
+<br><br>
+Linguists interested in tonal system of South American languages use a slightly different system. Like Chao, a numerical scale of 1-5 is used, except that fro them 5 is the lowest tone and 1 the highest.
+<br>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+window.onload=function(){
+ddtags_action();
+}
+
+function plays(_sname){
+//alert('ss');
+    location.href='plays://'+_sname;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Vowels</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansRegular';
+overflow: hidden;
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 3%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: rgb(60,60,60);
+font-size: 19pt;
+width: 98%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(254,254,254);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+#vowelsimg{
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+
+<span id="destxt"></span>
+<br><br>
+<img id="desimg">
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+function init(_name,_destxt){
+	document.getElementById('destxt').innerHTML=_destxt;
+    document.getElementById('desimg').src='consonants/'+_name+'/des.gif';
+}
+
+</script>
+</body>
+</html>

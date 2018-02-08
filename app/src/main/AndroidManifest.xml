@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="templateprj.ulip.hkbu.com.templateproject">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".splash.WTAActivity" />
+        <activity android:name=".splash.AgreeActivity" />
+        <activity android:name=".TemplateActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".splash.PasswordActivity" />
+        <activity android:name=".splash.WTA2Activity" />
+        <activity android:name=".splash.AboutActivity" />
+        <activity android:name=".IntroductionActivity" />
+        <activity android:name=".ContentActivity" />
+        <activity android:name=".IPAChartPDFActivity" />
+        <activity android:name=".cVowelsActivity" />
+        <activity android:name=".cTonesActivity" />
+        <activity android:name=".cOthersActivity" />
+        <activity android:name=".cGlossaryActivity" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".cArticulatorActivity" />
+        <activity android:name=".cConsonantActivity" />
+        <activity android:name=".cConsonantContentActivity" />
+        <activity android:name=".cVowelsSoundActivity" />
+        <activity android:name=".GlossaryDetailActivity" />
+    </application>
+
+</manifest>

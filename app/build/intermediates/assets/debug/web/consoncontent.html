@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script type="text/javascript" src="phoneappbuilder.js"></script>
+<script type="text/javascript" src="consonants/dataarr.js"></script>
+<title>Consonants</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: "CharisSIL-R";
+    src: url("font/CharisSIL-R.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: "CharisSIL-I";
+    src: url("font/CharisSIL-I.ttf") /* TTF file for CSS3 browsers */
+}
+
+@media all and (orientation:portrait){
+
+#mainTTr_1{
+
+}
+
+#mainTTr_2{
+
+}
+
+#mainTTd_L1{
+    display: none;
+    font-family: 'CharisSIL-R';
+}
+
+#mainTTd_D{
+padding-top: 13pt;
+text-align: center;
+}
+
+#btn_st{
+width: 60pt;
+}
+
+}
+
+@media all and (orientation:landscape){
+
+#mainTTr_1{
+display: none;
+}
+
+#mainTTr_2{
+/* display: none; */
+}
+
+#mainTTd_L1{
+width: 50%;
+font-size: 15pt;
+text-align: left;
+font-family: 'CharisSIL-R';
+}
+
+#mainTTd_D{
+padding-top: 3pt;
+text-align: center;
+}
+
+#btn_st{
+width: 50pt;
+}
+
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+color: black;
+}
+
+a{
+text-decoration: none;
+}
+
+#mainTable{
+width: 100%;
+}
+
+#mainTable td{
+vertical-align: middle;
+}
+
+#mainTTd_A{
+position: relative;
+width: 25%;
+text-align: center;
+background: white;
+}
+
+#mainTTd_B{
+width: 25%;
+text-align: center;
+background: white;
+}
+
+#mainTTd_C{
+padding-top: 20pt;
+font-size: 12.5pt;
+text-align: left;
+font-family: 'CharisSIL-R';
+}
+
+#mainBo{
+width: 100%;
+}
+
+#mainImg{
+width: 100%;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+
+#mainBSub{
+position: absolute;
+top: 0%;
+left: 10%;
+background-color: red;
+width: 2px;
+height: 100%;
+}
+
+.CSSButton{
+    display: table;
+    width: 82%;
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    margin: 0 auto;
+    background-color: rgb(200,200,200);
+    color: white;
+}
+
+.CSSButtonTr{
+    display: table-row;
+}
+
+.CSSButtonTd{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#desimg{
+    width: 94%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#btn_close{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    color: rgb(100,100,100);
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(180,180,180);
+}
+
+
+.DesFirst{
+font-size: 24pt;
+font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+
+<br><br><br><br>
+<table id="mainTable">
+<tr>
+<td id="mainTTd_A"><img id="mainBo" /><div id="mainBSub"></div></td>
+<td id="mainTTd_B"><img id="mainImg" /></td>
+<td id="mainTTd_L1"></td>
+</tr>
+<tr id="mainTTr_2">
+<td id="mainTTd_D" colspan="2"><img id="btn_st" src="media/st_btn.png" /></td>
+</tr>
+<tr id="mainTTr_1">
+<td id="mainTTd_C" colspan="2"></td>
+</tr>
+</table>
+
+<br>
+<div id="detailsbtn" class="CSSButton" ontouchend="toImg();" style="display:none;">
+    <div class="CSSButtonTr">
+        <div class="CSSButtonTd">
+            Details
+        </div>
+    </div>
+</div>
+
+
+
+<center>
+<img id="desimg">
+</center>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+
+function initDes(_name){
+    //document.getElementById('destxt').innerHTML=_destxt;
+    if(_name!='050301')document.getElementById('desimg').src='consonants/'+_name+'/des.gif';
+    else document.getElementById('desimg').style.display='none';
+}
+
+
+function checkOr(){
+var isLandscape=true;
+switch(window.orientation){  
+      case -90:
+      case 90:
+        isLandscape=true;
+        break; 
+      default:
+        isLandscape=false;
+        break; 
+}
+if(isLandscape){
+document.getElementById('mainTTd_D').setAttribute('colspan','3');
+}else{
+document.getElementById('mainTTd_D').setAttribute('colspan','2');
+}
+}
+
+window.onorientationchange=function(){
+checkOr();
+}
+checkOr();
+
+
+
+var inShow="";
+var vd=0;
+var isPlaying=false;
+//var voicePlayer=new PABAudioObject(null,null,false,false);
+var msBar=document.getElementById('mainBSub');
+
+function setInShow(_inShow){
+inShow=_inShow;
+//voicePlayer.setSrc('consonants/'+inShow+'/sound.mp3');
+document.getElementById('mainTTd_C').innerHTML=dataarr[_inShow].des;
+document.getElementById('mainTTd_L1').innerHTML=dataarr[_inShow].des;
+document.getElementById('mainBo').src='consonants/'+inShow+'/bo.png';
+document.getElementById('mainImg').src='consonants/'+inShow+'/gif.gif';
+//voicePlayer.play();
+initDes(_inShow);
+playSound('consonants/'+inShow+'/sound.mp3');
+}
+
+/*
+voicePlayer.htmlObject.addEventListener('canplaythrough',function(){
+vd=voicePlayer.htmlObject.duration;
+document.getElementById('btn_st').src='media/st_btn_b.png';
+scrollVoice();
+isPlaying=true;
+});
+
+voicePlayer.htmlObject.addEventListener('ended',function(){
+isPlaying=false;
+document.getElementById('btn_st').src='media/st_btn.png';
+});
+*/
+
+
+function setSoundDuration(_duration){
+vd=_duration/1000;
+document.getElementById('btn_st').src='media/st_btn_b.png';
+scrollVoice();
+isPlaying=true;
+}
+
+function soundEnded(){
+isPlaying=false;
+document.getElementById('btn_st').src='media/st_btn.png';
+}
+
+function playSound(){
+Android.playSound('consonants/'+inShow+'/sound.mp3');
+}
+
+function replaySound(){
+Android.replaySound();
+}
+
+var played=0;
+function scrollVoice(){
+// From 10 to 90
+if(played<1){
+//msBar.style.webkitTransition='';
+msBar.style.transition='';
+setTimeout(function(){
+//msBar.style.webkitTransition='';
+msBar.style.transition='';
+msBar.style.left='10%';
+//msBar.style.webkitTransition='left '+vd+'s linear 0s';
+msBar.style.transition='left '+vd+'s linear 0s';
+setTimeout(function(){msBar.style.left='98%';},10);
+},10);
+}else{
+msBar.style.transition='';
+msBar.style.left='10%';
+setTimeout(function(){
+msBar.style.transition='left '+vd+'s linear 0s';
+setTimeout(function(){msBar.style.left='98%';},10);
+},100);
+}
+played++;
+setTimeout(function(){soundEnded();},(vd*1000)+10);
+}
+
+var btnst=toPABObject(document.getElementById('btn_st'));
+btnst.setOnClickListener(function(){
+if(isPlaying==false){
+document.getElementById('btn_st').src='media/st_btn_b.png';
+//voicePlayer.play();
+document.getElementById('mainImg').src='consonants/'+inShow+'/gif.gif';
+scrollVoice();
+isPlaying=true;
+replaySound();
+}
+});
+
+function setNotShowDetailBtn(){
+    document.getElementById('detailsbtn').style.display='none';
+}
+
+function toImg(){
+    //location.href='toimg://yes';
+}
+
+function closeView(){
+    Android.toClose();
+}
+
+//setInShow('010101');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>ULI - Author</title>
+<style>
+body{
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+overflow: hidden;
+}
+
+hr{
+width: 100%;
+height: 2px;
+background-color: rgb(220,220,220);
+border: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 3%;
+left: 3%;
+width: 96%;
+height: 95%;
+overflow: hidden;
+}
+
+#fulllogo{
+width: 45%;
+}
+
+#contentDiv{
+position: absolute;
+top: 18%;
+left: 0%;
+color: rgb(100,100,100);
+font-size: 19px;
+width: 100%;
+height: 80%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(254,254,254);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentTable{
+width: 100%;
+border: 0;
+}
+
+.contentTableTd_icon{
+width: 5%;
+text-align: left;
+vertical-align: top;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.contentTableTd_cont{
+width: 95%;
+text-align: left;
+vertical-align: middle;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.wtaimg{
+width: 25px;
+}
+
+#btn_close{
+position: absolute;
+right: 5%;
+top: 5%;
+color: rgb(130,130,130);
+width: 20%;
+text-align: center;
+border-radius: 10px;
+padding-top: 8px;
+padding-bottom: 8px;
+background-color: rgb(230,230,230);
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<img id="fulllogo" src="full_logo.png"><br><br><br>
+<div id="contentDiv">
+<span style="font-size:25px;font-weight:bold;">About</span>
+<br><br>
+By Lian-Hee Wee, Hong Kong Baptist University
+Copyright© 2015
+<br><br>
+Interactive Phonetics: an audio-visual IPA reference is the product of the combined efforts of Lian-Hee Wee and the Resource Centre for Ubiquitous Learning and Integrated Pedagogy (ULIP).
+<br><br>
+<b>Developed By</b><br>
+Resource Centre for Ubiquitous Learning and Integrated Pedagogy
+<br><br>
+Development Team: Prof. Christopher Keyes, Dr. Ronnie H. Shroff, Eric Chow, Sathya J. Naidu, Dave Fung
+<br><br>
+Content developed by Lian-Hee Wee
+<br><br>
+Source code, graphics, text and audio-visual content available in this app is protected by copyright held by the  Department of English Language and Literature, Faculty of Arts, Hong Kong Baptist University
+<br><br>
+In the creation of this App, we have made use of<br><br>
+Boersma, Paul &amp; Weenink, David (2015). Praat: doing phonetics by computer [Computer program]. Version 5.4.08, retrieved 24 March 2015 from http://www.praat.org/<br><br>
+Chao, Yuen-Ren (1930) A system of tone letters. La Maitre Phonetique, 45:24-27.<br><br>
+International Phonetic Association Home page,  https://www.internationalpho<br>neticassociation.org/ accessed on 28 May 2015<br><br>
+UCLA Phonetics Lab Data http://www.linguistics.ucla<br>.edu/faciliti/uclaplab.html accessed on 28 May 2015
+</div>
+</div>
+
+
+<div id="btn_close" ontouchend="closeView();">Close</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+function toBack(){
+//location.href='toback://yes';
+
+}
+
+function toNext(){
+//location.href='tonext://yes';
+}
+
+function closeView(){
+//location.href='close://yes';
+Android.closePage();
+}
+</script>
+</body>
+</html>

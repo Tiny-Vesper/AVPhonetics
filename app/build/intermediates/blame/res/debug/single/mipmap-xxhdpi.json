@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/admin/Downloads/Android/AVPhonetics/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/admin/Downloads/Android/AVPhonetics/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/arc1/Desktop/AVPhonetics/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/arc1/Desktop/AVPhonetics/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

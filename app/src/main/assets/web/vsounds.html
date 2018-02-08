@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Flash Card</title>
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="phoneappbuilder.js"></script>
+<style>
+@font-face {
+font-family:"OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family:"OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+overflow: auto;
+font-family: 'OpenSansLight';
+background-color: rgb(217,222,193);
+}
+
+#imgDiv{
+overflow: auto;
+margin: 0 auto;
+/* background-color: red; */
+}
+
+.aBoxClass{
+position: absolute;
+background-color: rgba(0,0,0,0);
+}
+
+.aBoxClickedClass{
+background-color: rgba(50,50,50,0.3);
+}
+
+#blockView{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(10,10,10,0.55);
+}
+
+#popupExplainDiv{
+position: absolute;
+bottom: 0%;
+left: 0%;
+width: 100%;
+height: 9%;
+background-color: rgba(50,50,50,1);
+border-radius: 0px;
+color: white;
+}
+
+#popupExplainTable{
+display: table;
+width: 100%;
+height: 100%;
+}
+
+.popupExplainTTrClass{
+display: table-row;
+}
+
+.popupExplainTTdClass{
+display: table-cell;
+width: 100%;
+text-align: center;
+vertical-align: middle;
+}
+
+#popupExplainTTitle{
+font-size: 29px;
+height: 100%;
+}
+
+#popupExplainTContent{
+height: 80%;
+text-align: left;
+vertical-align: top;
+padding: 10px;
+}
+
+#mainTitle{
+position: absolute;
+top: 1%;
+left: 1%;
+font-size: 19px;
+font-weight: bold;
+color: rgb(50,50,50);
+}
+
+#sdes{
+color: rgb(0,0,0);
+}
+
+#imgDiv{
+    position: absolute;
+    top: 9.2%;
+    left: 0%;
+    width: 50px;
+    height: 50px;
+}
+
+#theImg{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#sdes{
+    position: absolute;
+    top: 0.2%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div style="width:100%;height:100%;text-align:center;margin: 0 auto;">
+    
+        <div id="imgDiv">
+            <img id="theImg" src="vowels/12.png">
+        </div>
+    
+</div>
+
+<span id="sdes">Where symbols appear in pairs, the one to the right represents a rounded vowels</span>
+
+
+
+<script type="text/javascript">
+//document.getElementById('imgDiv').content="minimum-scale=1,maximum-scale=3.0,user-scalable=yes";
+
+var win_w=$(window).width();
+var win_h=$(window).height();
+
+
+var idPxW=0;
+var idPxH=0;
+if(win_w>=1024 && win_h>=704){
+idPxW=940;
+idPxH=624;
+}else{
+idPxW=627;
+idPxH=416;
+}
+document.getElementById('imgDiv').style.width=idPxW+'px';
+document.getElementById('imgDiv').style.height=idPxH+'px';
+document.getElementById('imgDiv').style.left=(document.body.clientWidth/2-idPxW/2)+'px';
+document.getElementById('theImg').style.width=idPxW+'px';
+document.getElementById('theImg').style.height=idPxH+'px';
+
+var bCountW=70;
+var bCountH=55;
+var boxW=idPxW/bCountW;
+var boxH=idPxH/bCountH;
+
+var recordedArr=[{"name":"c1","display":"01","positions":[[15,23],[15,24],[15,25],[16,23],[16,24],[16,25],[17,23],[17,24],[17,25]]},{"name":"c02","display":"02","positions":[[21,25],[21,26],[22,25],[22,26],[23,25],[23,26]]},{"name":"c03","display":"03","positions":[[26,26],[26,27],[26,28],[27,26],[27,27],[27,28],[28,26],[28,27],[28,28]]},{"name":"c04","display":"04","positions":[[31,29],[31,30],[32,28],[32,29],[32,30],[33,28],[33,29],[33,30],[34,29],[34,30]]},{"name":"c05","display":"05","positions":[[15,27],[15,28],[15,29],[16,27],[16,28],[16,29],[17,27],[17,28],[17,29]]},{"name":"c06","display":"06","positions":[[21,29],[21,30],[21,31],[22,29],[22,30],[22,31],[23,29],[23,30],[23,31]]},{"name":"c07","display":"07","positions":[[26,31],[26,32],[26,33],[27,31],[27,32],[27,33],[28,31],[28,32],[28,33]]},{"name":"c08","display":"08","positions":[[31,33],[31,34],[32,32],[32,33],[32,34],[33,32],[33,33],[33,34],[34,33],[34,34]]},{"name":"c09","display":"09","positions":[[17,31],[17,32],[18,31],[18,32],[19,31],[19,32],[20,31],[20,32]]},{"name":"c10","display":"10","positions":[[18,33],[18,34],[18,35],[19,33],[19,34],[19,35],[20,33],[20,34]]},{"name":"c11","display":"11","positions":[[15,35],[15,36],[15,37],[16,35],[16,36],[16,37],[17,35],[17,36],[17,37]]},{"name":"c12","display":"12","positions":[[23,38],[23,39],[24,37],[24,38],[24,39],[25,38],[25,39]]},{"name":"c13","display":"13","positions":[[29,38],[29,39],[29,40],[30,38],[30,39],[30,40],[31,38],[31,39],[31,40]]},{"name":"c14","display":"14","positions":[[15,39],[15,40],[16,38],[16,39],[16,40],[17,38],[17,39],[17,40]]},{"name":"c15","display":"15","positions":[[18,42],[18,43],[18,44],[19,42],[19,43],[19,44],[20,42],[20,43],[20,44]]},{"name":"c16","display":"16","positions":[[15,46],[15,47],[16,46],[16,47],[17,46],[17,47]]},{"name":"c17","display":"17","positions":[[20,46],[20,47],[21,46],[21,47],[22,46],[22,47],[23,46],[23,47]]},{"name":"c18","display":"18","positions":[[26,46],[26,47],[27,46],[27,47],[28,46],[28,47]]},{"name":"c19","display":"19","positions":[[32,46],[32,47],[33,46],[33,47],[34,46],[34,47]]},{"name":"c20","display":"20","positions":[[15,50],[15,51],[16,50],[16,51],[17,50],[17,51]]},{"name":"c21","display":"21","positions":[[20,50],[20,51],[21,50],[21,51],[22,50],[22,51],[23,50],[23,51]]},{"name":"c22","display":"22","positions":[[26,50],[26,51],[27,50],[27,51],[28,50],[28,51]]},{"name":"c23","display":"23","positions":[[32,50],[32,51],[33,50],[33,51],[34,50],[34,51]]},{"name":"c24","display":"24","positions":[[29,27],[29,28],[29,29],[30,27],[30,28],[30,29],[31,27],[31,28],[31,29]]}];
+
+
+
+
+function checkClick(_i,_k,_aBox){
+//alert(_i+', '+_k);
+for(var p=0; p<recordedArr.length; p++){
+for(var posarr in recordedArr[p].positions){
+if(_i==recordedArr[p].positions[posarr][0] && _k==recordedArr[p].positions[posarr][1]){
+document.getElementById('theImg').src='vowels/'+recordedArr[p]['display']+'.png';
+//location.href='plays://'+recordedArr[p]['display'];
+Android.plays(recordedArr[p]['display']);
+}
+}
+}
+}
+
+
+
+aBoxArr=[];
+for(var i=0; i<bCountH; i++){
+var abafork=[];
+for(var k=0; k<bCountW; k++){
+var aBox=document.createElement('div');
+aBox.setAttribute('class','aBoxClass');
+aBox.style.top=(boxH*i)+'px';
+aBox.style.left=(boxW*k)+'px';
+aBox.style.width=(boxW)+'px';
+aBox.style.height=(boxH)+'px';
+
+if(PhoneAppBuilderHelper.checkBrowserTouchSupported()){
+    if(PhoneAppBuilderHelper.checkBrowserIsMobileIE==true){
+        aBox.addEventListener("MSPointerUp",(function(_i,_k,_aBox){return function(){checkClick(_i,_k,_aBox);};})(i,k,aBox));
+    }
+    else{
+        aBox.ontouchend=(function(_i,_k,_aBox){return function(){checkClick(_i,_k,_aBox);};})(i,k,aBox);
+    }
+}else{
+    aBox.onclick=(function(_i,_k,_aBox){return function(){checkClick(_i,_k,_aBox);};})(i,k,aBox);
+}
+
+
+document.getElementById('imgDiv').appendChild(aBox);
+abafork.push(aBox);
+}
+aBoxArr.push(abafork);
+}
+
+
+function setABoxSize(){
+for(var i=0; i<bCountH; i++){
+for(var k=0; k<bCountW; k++){
+var aBox=aBoxArr[i][k];
+aBox.style.top=(boxH*i)+'px';
+aBox.style.left=(boxW*k)+'px';
+aBox.style.width=(boxW)+'px';
+aBox.style.height=(boxH)+'px';
+}
+}
+}
+
+
+
+var imgpWidth=627;
+var imgpHeight=416;
+var nobj=document.getElementById('theImg');
+var bobj=document.getElementById('imgDiv');
+
+
+
+function scaleImg(_scale){
+    if(_scale<0.6)return;
+    if((imgpWidth*_scale)<450)return;
+    if((imgpWidth*_scale)>2000)return;
+    nobj.style.width=(imgpWidth*_scale)+'px';
+    nobj.style.height=(imgpHeight*_scale)+'px';
+    boxW=(imgpWidth*_scale)/bCountW;
+	boxH=(imgpHeight*_scale)/bCountH;
+    setABoxSize();
+}
+
+
+
+function funcGestureStart(e){}
+
+function funcGestureChange(e){
+        scaleImg(e.scale);
+}
+    
+function funcGestureEnd(e){
+        imgpWidth=parseInt(nobj.style.width);
+        imgpHeight=parseInt(nobj.style.height);
+}
+
+
+
+
+
+//FOR Android
+
+var pinchDistance = 0;
+bobj.addEventListener('touchstart',function(e){
+    if(e.touches.length > 1){
+		e.preventDefault();
+        pinchDistance = Math.sqrt(Math.pow((e.touches[1].pageX - e.touches[0].pageX),2)+Math.pow((e.touches[1].pageY - e.touches[0].pageY),2));
+        funcGestureStart(e);
+    } else {
+        pinchDistance = 0;
+    }
+},false);
+bobj.addEventListener('touchmove', function (e) {
+    if (pinchDistance <= 0) {
+        return;
+    }
+	e.preventDefault();
+    var newDistance = Math.sqrt(Math.pow((e.touches[1].pageX - e.touches[0].pageX),2)+Math.pow((e.touches[1].pageY - e.touches[0].pageY),2));
+    var event = {scale: newDistance / pinchDistance};
+    funcGestureChange(event);
+});
+bobj.addEventListener('touchend', function (e) {
+    if (pinchDistance <= 0) {
+        return;
+    }
+	e.preventDefault();
+    funcGestureEnd(e);
+});
+
+
+
+
+// FOR iOS
+/*
+bobj.addEventListener("gesturechange",funcGestureChange,false);
+bobj.addEventListener("gestureend",funcGestureEnd,false);
+*/
+</script>
+
+</body>
+</html>

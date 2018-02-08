@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Welcome</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+background-color: rgb(217,222,193);
+font-family: 'OpenSansRegular';
+overflow: hidden;
+}
+
+a{
+text-decoration: none;
+background-color: rgb(235,128,58);
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 2%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: black;
+font-size: 16pt;
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(217,222,193);
+-webkit-overflow-scrolling: touch;
+font-family: 'OpenSansLight';
+padding-left: 2%;
+padding-right: 2%;
+}
+
+#contentDiv a{
+color: white;
+}
+
+#introductionPlayer{
+    width: 100%;
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+Welcome to the mobile app of "Interactive Phonetics".<br><br>
+In learning phonetics, it is necessary to learn a set of symbols with which one may notate speech sounds. The most commonly used alphabet for this purpose is the International Phonetic Alphabet (IPA) developed by the International Phonetic Association (established 1886 in Paris).<br><br>
+The IPA contains a list of symbols (phonetic letters). Each of these letters represents an unit of linguistic sound known as a phone/segment.<br>
+This list is presented in a table known as the <a href="javascript:Android.toipapdf()">IPA chart</a>.
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+</script>
+</body>
+</html>

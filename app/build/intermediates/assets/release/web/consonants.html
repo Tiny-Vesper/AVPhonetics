@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Consonants</title>
+<link rel="stylesheet" type="text/css" href="ddtags_css.css">
+<script type="text/javascript" src="phoneappbuilder.js"></script>
+<script type="text/javascript" src="ddtags.js"></script>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: "CharisSIL-R";
+    src: url("font/CharisSIL-R.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: "CharisSIL-I";
+    src: url("font/CharisSIL-I.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+.SoundsFont{
+    font-family: 'CharisSIL-R';
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 2%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: black;
+font-size: 12.5pt;
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(217,222,193);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+.ContentTable{
+    width: 100%;
+    border: 0;
+    border-spacing: 13px 5px;
+}
+
+.ContentTable td{
+    border: 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.ContentTTd_Left{
+    width: 49%;
+    text-align: center;
+    background-image: url('media/nd/consonant_button_2.png');
+	background-size: 100% 100%;
+}
+.ContentTTd_Left:hover{
+	/* background-image: url('media/nd/consonant_button_2_b.png'); */
+}
+
+.ContentTTd_Right{
+    width: 50%;
+    text-align: center;
+    background-image: url('media/nd/consonant_button.png');
+	background-size: 100% 100%;
+    font-family: 'CharisSIL-R';
+}
+.ContentTTd_Right:hover{
+	/* background-image: url('media/nd/consonant_button_b.png'); */
+}
+
+.ContentTTd_Right1{
+    width: 25%;
+    text-align: center;
+    background-image: url('media/nd/consonant_button.png');
+	background-size: 100% 100%;
+    font-family: 'CharisSIL-R';
+}
+.ContentTTd_Right1:hover{
+	/* background-image: url('media/nd/consonant_button_b.png'); */
+}
+
+.ContentTTd_Right2{
+    width: 25%;
+    text-align: center;
+    background-image: url('media/nd/consonant_button.png');
+	background-size: 100% 100%;
+    font-family: 'CharisSIL-R';
+}
+.ContentTTd_Right2:hover{
+	/* background-image: url('media/nd/consonant_button_b.png'); */
+}
+
+
+#FirstHyperlinkTable{
+width: 100%;
+border: 0;
+padding: 0px;
+font-size: 15pt;
+}
+
+.FirstHyperlinkTableTd{
+width: 50%;
+}
+
+.FirstHyperlinkTableTdLeft{
+padding-right: 4pt;
+}
+
+.FirstHyperlinkTableTdRight{
+padding-left: 4pt;
+}
+
+.FirstHyperlinkBtn{
+background-color: rgba(0,0,0,0);
+background-image: url('media/nd/consonant_button.png');
+background-size: 100% 100%;
+width: 93%;
+height: 58pt;
+margin: 0 auto;
+}
+
+.FirstHyperlinkBtn:hover{
+/* background-image: url('media/nd/consonant_button_b.png'); */
+}
+
+.FirstHyperlinkBtn td{
+color: black;
+}
+
+
+
+
+@media(max-height: 480px){ /* iPhone 4 */
+#contentDiv{
+font-size: 12pt;
+}
+}
+
+@media(min-height: 481px) and (max-height: 568px){ /* iPhone 5 */
+#contentDiv{
+font-size: 12.5pt;
+}
+}
+
+@media(min-height: 569px) and (max-height: 667px){ /* iPhone 6 */
+#contentDiv{
+font-size: 12.5pt;
+}
+}
+
+@media(min-height: 668px) and (max-height: 959px){ /* iPhone 6 Plus */
+#contentDiv{
+font-size: 13.5pt;
+}
+}
+
+@media(min-height: 960px) and (min-width: 768px){  /* iPad */
+#contentDiv{
+font-size: 14.5pt;
+}
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+In the articulation of consonants, there is always some kind of obstruction to the airflow. This obstruction may be thorough or partial. The ways obstructions occur are listed vertically along the first column. These are known as manners of articulation. Obstruction may occur in different regions, from the lips (labial), to the teeth (dental) to the alveolar, the palate, the velum, the pharynx and the glottal. These are known as places of articulation.<br><br>
+Please click on the chart to explore the consonant sounds. Please note that all consonantal sounds are put inside a carrier frame [a __a], i.e. the consonant sound is flanked by two vowels [a]. This is done so that the consonant may be heard most distinctly.
+<br><br>
+
+<table id="FirstHyperlinkTable">
+<tr>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdLeft"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(1);">Plosive</ddtag:btn></td>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdRight"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(2);">Nasal</ddtag:btn></td>
+</tr>
+<tr>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdLeft"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(3);">Trill</ddtag:btn></td>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdRight"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(4);">Tap or Flap</ddtag:btn></td>
+</tr>
+<tr>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdLeft"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(5);">Fricative</ddtag:btn></td>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdRight"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(6);">Lateral Fricative</ddtag:btn></td>
+</tr>
+<tr>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdLeft"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(7);">Approximant</ddtag:btn></td>
+<td class="FirstHyperlinkTableTd FirstHyperlinkTableTdRight"><ddtag:btn class="FirstHyperlinkBtn" onsvcclick="gtt(8);">Lateral Approximant</ddtag:btn></td>
+</tr>
+</table>
+
+
+
+<br><br><br>
+
+
+
+<table class="ContentTable" id="table_1">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Plosive</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_1">Bilabial</td><td class="ContentTTd_Right1" id="contentTSpan_010101">p</td><td class="ContentTTd_Right2" id="contentTSpan_010102">b</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right1" id="contentTSpan_010201_1">t</td><td class="ContentTTd_Right2" id="contentTSpan_010202_1">d</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_2">Alveolar</td><td class="ContentTTd_Right1" id="contentTSpan_010201_2">t</td><td class="ContentTTd_Right2" id="contentTSpan_010202_2">d</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right1" id="contentTSpan_010201_3">t</td><td class="ContentTTd_Right2" id="contentTSpan_010202_3">d</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_3">Retroflex</td><td class="ContentTTd_Right1" id="contentTSpan_010301">ʈ</td><td class="ContentTTd_Right2" id="contentTSpan_010302">ɖ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_4">Palatal</td><td class="ContentTTd_Right1" id="contentTSpan_010401">c</td><td class="ContentTTd_Right2" id="contentTSpan_010402">ɟ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_5">Velar</td><td class="ContentTTd_Right1" id="contentTSpan_010501">k<td class="ContentTTd_Right2" id="contentTSpan_010502">ɡ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_6">Uvular</td><td class="ContentTTd_Right1" id="contentTSpan_010601">q<td class="ContentTTd_Right2" id="contentTSpan_010602">ɢ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_7">Glottal</td><td class="ContentTTd_Right" id="contentTSpan_010701" colspan="2">ʔ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_2">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Nasal</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_8">Bilabial</td><td class="ContentTTd_Right" id="contentTSpan_020101">m</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_9">Labiodental</td><td class="ContentTTd_Right" id="contentTSpan_020201">ɱ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right" id="contentTSpan_020301_1">n</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_10">Alveolar</td><td class="ContentTTd_Right" id="contentTSpan_020301_2">n</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right" id="contentTSpan_020301_3">n</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_11">Retroflex</td><td class="ContentTTd_Right" id="contentTSpan_020401">ɳ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_12">Palatal</td><td class="ContentTTd_Right" id="contentTSpan_020501">ɲ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_13">Velar</td><td class="ContentTTd_Right" id="contentTSpan_020601">ŋ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_14">Uvular</td><td class="ContentTTd_Right" id="contentTSpan_020701">ɴ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_3">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Trill</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_15">Bilabial</td><td class="ContentTTd_Right" id="contentTSpan_030101">ʙ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right" id="contentTSpan_030201_1">r</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_16">Alveolar</td><td class="ContentTTd_Right" id="contentTSpan_030201_2">r</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right" id="contentTSpan_030201_3">r</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_17">Uvular</td><td class="ContentTTd_Right" id="contentTSpan_030301">ʀ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_4">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Tap or Flap</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_41">Labiodental</td><td class="ContentTTd_Right" id="contentTSpan_040301">ⱱ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right" id="contentTSpan_040101_1">ɾ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_18">Alveolar</td><td class="ContentTTd_Right" id="contentTSpan_040101_2">ɾ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right" id="contentTSpan_040101_3">ɾ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_19">Retroflex</td><td class="ContentTTd_Right" id="contentTSpan_040201">ɽ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_5">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Fricative</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_20">Bilabial</td><td class="ContentTTd_Right1" id="contentTSpan_050101">ɸ<td class="ContentTTd_Right2" id="contentTSpan_050102">β</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_21">Labiodental</td><td class="ContentTTd_Right1" id="contentTSpan_050201">f<td class="ContentTTd_Right2" id="contentTSpan_050202">v</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_22">Dental</td><td class="ContentTTd_Right1" id="contentTSpan_050301">θ<td class="ContentTTd_Right2" id="contentTSpan_050302">ð</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_23">Alveolar</td><td class="ContentTTd_Right1" id="contentTSpan_050401">s<td class="ContentTTd_Right2" id="contentTSpan_050402">z</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_24">Postalveolar</td><td class="ContentTTd_Right1" id="contentTSpan_050501">ʃ<td class="ContentTTd_Right2" id="contentTSpan_050502">ʒ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_25">Retroflex</td><td class="ContentTTd_Right1" id="contentTSpan_050601">ʂ<td class="ContentTTd_Right2" id="contentTSpan_050602">ʐ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_26">Palatal</td><td class="ContentTTd_Right1" id="contentTSpan_050701">ç<td class="ContentTTd_Right2" id="contentTSpan_050702">ʝ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_27">Velar</td><td class="ContentTTd_Right1" id="contentTSpan_050801">x<td class="ContentTTd_Right2" id="contentTSpan_050802">ɣ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_28">Uvular</td><td class="ContentTTd_Right1" id="contentTSpan_050901">χ<td class="ContentTTd_Right2" id="contentTSpan_050902">ʁ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_29">Pharyngeal</td><td class="ContentTTd_Right1" id="contentTSpan_051001">ħ<td class="ContentTTd_Right2" id="contentTSpan_051002">ʕ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_30">Glottal</td><td class="ContentTTd_Right1" id="contentTSpan_051101">h<td class="ContentTTd_Right2" id="contentTSpan_051102">ɦ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_6">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Lateral fricative</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right1" id="contentTSpan_060101_1">ɬ<td class="ContentTTd_Right2" id="contentTSpan_060102_1">ɮ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_31">Alveolar</td><td class="ContentTTd_Right1" id="contentTSpan_060101_2">ɬ<td class="ContentTTd_Right2" id="contentTSpan_060102_2">ɮ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right1" id="contentTSpan_060101_3">ɬ<td class="ContentTTd_Right2" id="contentTSpan_060102_3">ɮ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_7">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Approximant</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_32">Labiodental</td><td class="ContentTTd_Right" id="contentTSpan_070101">ʋ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right" id="contentTSpan_070201_1">ɹ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_33">Alveolar</td><td class="ContentTTd_Right" id="contentTSpan_070201_2">ɹ</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right" id="contentTSpan_070201_3">ɹ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_34">Retroflex</td><td class="ContentTTd_Right" id="contentTSpan_070301">ɻ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_35">Palatal</td><td class="ContentTTd_Right" id="contentTSpan_070401">j</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_36">Velar</td><td class="ContentTTd_Right" id="contentTSpan_070501">ɰ</td></tr>
+</table>
+
+<br><br>
+
+<table class="ContentTable" id="table_8">
+    <tr><td colspan="3" style="background-image:url('');text-align:center;font-size: 15pt;">Lateral approximant</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Dental</td><td class="ContentTTd_Right" id="contentTSpan_080101_1">l</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_37">Alveolar</td><td class="ContentTTd_Right" id="contentTSpan_080101_2">l</td></tr>
+    <tr style="display:none;"><td class="ContentTTd_Left">Postalveolar</td><td class="ContentTTd_Right" id="contentTSpan_080101_3">l</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_38">Retroflex</td><td class="ContentTTd_Right" id="contentTSpan_080201">ɭ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_39">Palatal</td><td class="ContentTTd_Right" id="contentTSpan_080301">ʎ</td></tr>
+    <tr><td class="ContentTTd_Left" id="tog_40">Velar</td><td class="ContentTTd_Right" id="contentTSpan_080401">ʟ</td></tr>
+</table>
+
+<br>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+ddtags_action();
+}
+
+
+function gtt(_n){
+location.href='#table_'+_n;
+}
+
+
+function cclicked(_num){
+    //location.href='tocontent://'+_num;
+	Android.tocontent(_num);
+}
+
+var btn=null;
+var cdsv=toPABObject(document.getElementById('contentDiv'));
+
+// 1. 010101 010102 010201_1 010202_1 010201_2 010202_2 010201_3 010202_3 010301 010302 010401 010402 010501 010502 010601 010602 010701
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010101'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010101').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010101');},function(){document.getElementById('contentTSpan_010101').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010102'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010102').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010102');},function(){document.getElementById('contentTSpan_010102').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010201_1'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010201_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010201');},function(){document.getElementById('contentTSpan_010201_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010202_1'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010202_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010202');},function(){document.getElementById('contentTSpan_010202_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010201_2'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010201_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010201');},function(){document.getElementById('contentTSpan_010201_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010202_2'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010202_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010202');},function(){document.getElementById('contentTSpan_010202_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010201_3'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010201_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010201');},function(){document.getElementById('contentTSpan_010201_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010202_3'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010202_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010202');},function(){document.getElementById('contentTSpan_010202_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010301'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010301').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010301');},function(){document.getElementById('contentTSpan_010301').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010302'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010302').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010302');},function(){document.getElementById('contentTSpan_010302').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010401'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010401').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010401');},function(){document.getElementById('contentTSpan_010401').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010402'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010402').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010402');},function(){document.getElementById('contentTSpan_010402').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010501'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010501').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010501');},function(){document.getElementById('contentTSpan_010501').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010502'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010502').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010502');},function(){document.getElementById('contentTSpan_010502').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010601'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010601').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010601');},function(){document.getElementById('contentTSpan_010601').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010602'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010602').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010602');},function(){document.getElementById('contentTSpan_010602').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_010701'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_010701').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('010701');},function(){document.getElementById('contentTSpan_010701').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+
+// 2. 020101 020201 020301 020301 020301 020401 020501 020601 020701
+
+btnobj=toPABObject(document.getElementById('contentTSpan_020101'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020101').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020101');},function(){document.getElementById('contentTSpan_020101').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_020201'));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020201').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020201');},function(){document.getElementById('contentTSpan_020201').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+btnobj=toPABObject(document.getElementById('contentTSpan_020301_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020301_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020301');},function(){document.getElementById('contentTSpan_020301_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_020301_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020301_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020301');},function(){document.getElementById('contentTSpan_020301_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_020301_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020301_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020301');},function(){document.getElementById('contentTSpan_020301_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_020401'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020401').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020401');},function(){document.getElementById('contentTSpan_020401').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_020501'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020501').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020501');},function(){document.getElementById('contentTSpan_020501').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_020601'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020601').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020601');},function(){document.getElementById('contentTSpan_020601').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_020701'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_020701').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('020701');},function(){document.getElementById('contentTSpan_020701').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ 
+ // 3. 030101 030201 030201 030201 030301
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_030101'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_030101').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('030101');},function(){document.getElementById('contentTSpan_030101').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_030201_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_030201_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('030201');},function(){document.getElementById('contentTSpan_030201_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_030201_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_030201_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('030201');},function(){document.getElementById('contentTSpan_030201_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_030201_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_030201_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('030201');},function(){document.getElementById('contentTSpan_030201_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_030301'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_030301').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('030301');},function(){document.getElementById('contentTSpan_030301').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ 
+ // 4. 040101 040101 040101 040201
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_040101_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_040101_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('040101');},function(){document.getElementById('contentTSpan_040101_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_040101_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_040101_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('040101');},function(){document.getElementById('contentTSpan_040101_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_040101_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_040101_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('040101');},function(){document.getElementById('contentTSpan_040101_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+  
+ btnobj=toPABObject(document.getElementById('contentTSpan_040201'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_040201').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('040201');},function(){document.getElementById('contentTSpan_040201').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_040301'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_040301').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('040301');},function(){document.getElementById('contentTSpan_040301').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ 
+ // 5. 050101 050102 050201 050202 050301 050302 050401 050402 050501 050502 050601 050602 050701 050702 050801 050802 050901 050902 051001 051002 051101 051102
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050101'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050101').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050101');},function(){document.getElementById('contentTSpan_050101').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050102'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050102').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050102');},function(){document.getElementById('contentTSpan_050102').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050201'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050201').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050201');},function(){document.getElementById('contentTSpan_050201').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050202'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050202').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050202');},function(){document.getElementById('contentTSpan_050202').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050301'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050301').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050301');},function(){document.getElementById('contentTSpan_050301').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050302'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050302').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050302');},function(){document.getElementById('contentTSpan_050302').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050401'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050401').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050401');},function(){document.getElementById('contentTSpan_050401').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050402'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050402').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050402');},function(){document.getElementById('contentTSpan_050402').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050501'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050501').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050501');},function(){document.getElementById('contentTSpan_050501').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050502'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050502').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050502');},function(){document.getElementById('contentTSpan_050502').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050601'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050601').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050601');},function(){document.getElementById('contentTSpan_050601').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050602'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050602').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050602');},function(){document.getElementById('contentTSpan_050602').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050701'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050701').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050701');},function(){document.getElementById('contentTSpan_050701').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050702'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050702').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050702');},function(){document.getElementById('contentTSpan_050702').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050801'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050801').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050801');},function(){document.getElementById('contentTSpan_050801').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050802'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050802').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050802');},function(){document.getElementById('contentTSpan_050802').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050901'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050901').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050901');},function(){document.getElementById('contentTSpan_050901').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_050902'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_050902').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('050902');},function(){document.getElementById('contentTSpan_050902').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_051001'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_051001').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('051001');},function(){document.getElementById('contentTSpan_051001').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_051002'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_051002').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('051002');},function(){document.getElementById('contentTSpan_051002').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_051101'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_051101').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('051101');},function(){document.getElementById('contentTSpan_051101').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_051102'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_051102').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('051102');},function(){document.getElementById('contentTSpan_051102').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ 
+ // 6. 060101 060102 060101 060102 060101 060102
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_060101_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_060101_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('060101');},function(){document.getElementById('contentTSpan_060101_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_060102_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_060102_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('060102');},function(){document.getElementById('contentTSpan_060102_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_060101_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_060101_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('060101');},function(){document.getElementById('contentTSpan_060101_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_060102_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_060102_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('060102');},function(){document.getElementById('contentTSpan_060102_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_060101_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_060101_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('060101');},function(){document.getElementById('contentTSpan_060101_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_060102_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_060102_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('060102');},function(){document.getElementById('contentTSpan_060102_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ 
+ // 7. 070101 070201 070201 070201 070301 070401 070501
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070101'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070101').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070101');},function(){document.getElementById('contentTSpan_070101').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070201_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070201_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070201');},function(){document.getElementById('contentTSpan_070201_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070201_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070201_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070201');},function(){document.getElementById('contentTSpan_070201_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070201_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070201_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070201');},function(){document.getElementById('contentTSpan_070201_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070301'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070301').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070301');},function(){document.getElementById('contentTSpan_070301').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070401'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070401').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070401');},function(){document.getElementById('contentTSpan_070401').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_070501'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_070501').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('070501');},function(){document.getElementById('contentTSpan_070501').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ 
+ // 8. 080101 080101 080101 080201 080301 080401
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_080101_1'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_080101_1').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('080101');},function(){document.getElementById('contentTSpan_080101_1').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_080101_2'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_080101_2').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('080101');},function(){document.getElementById('contentTSpan_080101_2').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_080101_3'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_080101_3').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('080101');},function(){document.getElementById('contentTSpan_080101_3').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_080201'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_080201').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('080201');},function(){document.getElementById('contentTSpan_080201').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_080301'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_080301').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('080301');},function(){document.getElementById('contentTSpan_080301').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+ 
+ btnobj=toPABObject(document.getElementById('contentTSpan_080401'));
+ btnobj.onScrollViewClick(cdsv,function(){document.getElementById('contentTSpan_080401').style.backgroundImage='url(\'media/nd/consonant_button_b.png\')';},function(){cclicked('080401');},function(){document.getElementById('contentTSpan_080401').style.backgroundImage='url(\'media/nd/consonant_button.png\')';});
+
+
+
+var togArr=["Bilabial","Alveolar","Retroflex","Palatal","Velar/Velum/Soft Palate","Uvular","Glottal/Glottis","Bilabial","Labiodental","Alveolar","Retroflex","Palatal","Velar/Velum/Soft Palate","Uvular","Bilabial","Alveolar","Uvular","Alveolar","Retroflex","Bilabial","Labiodental","Dental","Alveolar","Postalveolar","Retroflex","Palatal","Velar/Velum/Soft Palate","Uvular","Pharyngeal/Pharynx","Glottal/Glottis","Alveolar","Labiodental","Alveolar","Retroflex","Palatal","Velar/Velum/Soft Palate","Alveolar","Retroflex","Palatal","Velar/Velum/Soft Palate","Labiodental"];
+for(var i=0; i<togArr.length; i++)(function(i){ 
+btnobj=toPABObject(document.getElementById('tog_'+(i+1)));
+btnobj.onScrollViewClick(cdsv,function(){document.getElementById('tog_'+(i+1)).style.backgroundImage='url(\'media/nd/consonant_button_2_b.png\')';},function(){gotog(togArr[i]);document.getElementById('tog_'+(i+1)).style.backgroundImage='url(\'media/nd/consonant_button_2.png\')';},function(){document.getElementById('tog_'+(i+1)).style.backgroundImage='url(\'media/nd/consonant_button_2.png\')';});
+})(i);
+
+
+var json=null;
+
+function setJson(_json){
+    json=_json;
+}
+
+function gotog(_name){
+    if(json==null)return;
+    _name=_name.toLowerCase();
+    for(var i in json){
+        if(json[i].name.toLowerCase()==_name){
+            location.href='gotog://'+i;
+        }
+    }
+}
+
+</script>
+</body>
+</html>

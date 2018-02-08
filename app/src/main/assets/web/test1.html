@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Flash Card</title>
+<style>
+body{
+background-image: url('img/bg_2.png');
+background-size: 100% auto;
+}
+
+#imgDiv{
+position: absolute;
+top: 9%;
+left: 0%;
+overflow: hidden;
+/* background-color: red; */
+}
+
+.aBoxClass{
+position: absolute;
+background-color: rgba(255,255,255,0.7);
+}
+
+.aBoxClickedClass{
+background-color: rgba(50,50,50,0.3);
+}
+</style>
+</head>
+<body>
+<input id="areaname" type="text" placeholder="Area Name">
+<input id="btn_finish" type="button" value="finish" onclick="exportBoxes();">
+<textarea id="txt_output"></textarea>
+
+<div id="imgDiv">
+<img id="theImg" src="vowels/12.png">
+</div>
+
+
+<script type="text/javascript">
+var idPxW=627;
+var idPxH=416;
+document.getElementById('imgDiv').style.width=idPxW+'px';
+document.getElementById('imgDiv').style.height=idPxH+'px';
+document.getElementById('theImg').style.width=idPxW+'px';
+document.getElementById('theImg').style.height=idPxH+'px';
+
+var bCountW=70;
+var bCountH=55;
+var boxW=idPxW/bCountW;
+var boxH=idPxH/bCountH;
+
+
+
+var boxesArr=[];
+var recordedArr=[];
+
+
+
+function exportBoxes(){
+var aName=document.getElementById('areaname').value;
+var theIndex=0;
+var needAdd=true;
+for(var dic in recordedArr){
+if(recordedArr[dic].name==aName){needAdd=false;theIndex=dic;break;}
+}
+if(needAdd)recordedArr.push({"name":aName,"positions":[]});
+
+for(var i=0; i<boxesArr.length; i++){
+for(var k=0; k<boxesArr[i].length; k++){
+if(boxesArr[i][k].getAttribute('class')=='aBoxClass aBoxClickedClass'){recordedArr[theIndex]['positions'].push([i,k]);}
+}
+}
+document.getElementById('txt_output').value=JSON.stringify(recordedArr);
+clearBoxes();
+}
+
+
+function clearBoxes(){
+for(var i=0; i<boxesArr.length; i++){
+for(var k=0; k<boxesArr[i].length; k++){
+boxesArr[i][k].setAttribute('class','aBoxClass');
+}
+}
+}
+
+
+
+for(var i=0; i<bCountH; i++){
+boxesArr.push([]);
+for(var k=0; k<bCountW; k++){
+var aBox=document.createElement('div');
+aBox.setAttribute('class','aBoxClass');
+aBox.style.top=(boxH*i)+'px';
+aBox.style.left=(boxW*k)+'px';
+aBox.style.width=(boxW)+'px';
+aBox.style.height=(boxH)+'px';
+aBox.onclick=(function(_aBox){return function(){
+if(_aBox.getAttribute('class')=='aBoxClass')_aBox.setAttribute('class','aBoxClass aBoxClickedClass');
+else if(_aBox.getAttribute('class')=='aBoxClass aBoxClickedClass')_aBox.setAttribute('class','aBoxClass');
+};})(aBox);
+document.getElementById('imgDiv').appendChild(aBox);
+boxesArr[i].push(aBox);
+}
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script type="text/javascript" src="phoneappbuilder.js"></script>
+<link rel="stylesheet" type="text/css" href="ddtags_css.css">
+<script type="text/javascript" src="ddtags.js"></script>
+<title>Vowels</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: "CharisSIL-R";
+    src: url("font/CharisSIL-R.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+    font-family: "CharisSIL-I";
+    src: url("font/CharisSIL-I.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 3%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+}
+
+#contentDiv{
+color: black;
+font-size: 12.5pt;
+width: 98%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+-webkit-overflow-scrolling: touch;
+background-color: rgb(217,222,193);
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+.CSSButton{
+    display: table;
+    width: 82%;
+    padding-top: 6pt;
+    padding-bottom: 6pt;
+    margin: 0 auto;
+    background-color: rgb(150,150,150);
+    color: black;
+}
+
+.CSSButtonTr{
+    display: table-row;
+}
+
+.CSSButtonTd{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.SymbolsTable{
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+    border-spacing: 4pt;
+}
+
+.SymbolsTable td{
+    width: 25%;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.NormalBtn{
+margin: 0 auto;
+width: 99%;
+height: 33pt;
+background-image: url('media/nd/others_button.png');
+background-size: 100% 100%;
+background-color: rgba(0,0,0,0);
+/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+font-family: "CharisSIL-R";
+}
+
+.NormalBtn td{
+padding-bottom: 7px;
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+
+Other than the consonant (pulmonic), vowel and tone charts, there are 4 other sets of symbols: consonants (non-pulmonic); suprasegmentals; diacrtics and other symbols.
+<br><br>
+Consonants (non-pulmonic) refer to the set of consonantal sounds which articulations do not involve the lungs. To give you an example, if you smack your lips, you would be making a non-pulmonic consonant sound known as a bilabial click. The symbol for that sound is [ʘ]. The making of this sound does not involve the lungs at all.
+<br><br>
+Suprasegmentals are sounds that are beyond (hence the prefix "supra~") the phones, such as stress or length of articulation. These symbols are used to denote properties of length, break (or absence of break) in linguistic articulation.
+<br><br>
+Diacritics are symbols that piggyback on the other standard symbols. Diacritics are used to notate tiny variations in the place and manner of articulation. For example, a plosive sound may be articulated with or without a puff of air during the release. To notate the existence of an extra puff of air, the superscripted [ʰ] is added to a plosive, as in the contrast between [t] in "stick" and the [tʰ] in "tick".
+<br><br>
+Finally, additional IPA symbols are clustered under the miscellaneous group "other symbols".
+<br><br>
+While all of the above are important in a comprehensive grasp of the IPA, we will not explore them here.
+
+<br><br>
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+function cclicked(_num){
+    location.href='tocontent://'+_num;
+}
+
+
+window.onload=function(){
+ddtags_action();
+}
+
+</script>
+</body>
+</html>

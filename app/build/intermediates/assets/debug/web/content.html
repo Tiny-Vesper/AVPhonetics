@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" type="text/css" href="ddtags_css.css">
+<script type="text/javascript" src="ddtags.js"></script>
+<style>
+@font-face {
+    font-family:"OpenSansLight";
+    src: url("font/OpenSans-Light.ttf")
+}
+@font-face {
+    font-family:"OpenSansRegular";
+    src: url("font/OpenSans-Regular.ttf")
+}
+
+body{
+font-family: "OpenSansRegular";
+background-color: rgb(217,222,193);
+}
+
+#menuTanle{
+position: absolute;
+width: 100%;
+left: 0%;
+top: 4%;
+border-spacing: 0pt 5pt;
+}
+
+.NormalBtn{
+margin: 0 auto;
+height: 56pt;
+width: 100%;
+/* border-bottom: solid rgb(35,35,35) 2px; */
+}
+
+.NormalBtn td{
+font-size: 15.5pt;
+}
+</style>
+</head>
+<body>
+
+
+<table id="menuTanle">
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toAr()" style="background-color:rgb(227,187,136);">Articulators</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toCo()" style="background-color:rgb(219,152,100);">Consonants</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toVo()" style="background-color:rgb(177,105,90);">Vowels</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toTo()" style="background-color:rgb(111,98,99);">Tones</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toOt()" style="background-color:rgb(100,71,73);">Others</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toGl()" style="background-color:rgb(49,34,35);">Glossary</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toGa()" style="background-color:rgb(49,34,35);">Game</ddtag:btn>
+</td></tr>
+<tr><td>
+<ddtag:btn class="NormalBtn" onsvcclick="toCh()" style="background-color:rgb(2,2,2);">IPA Chart</ddtag:btn>
+</td></tr>
+</table>
+
+
+<script type="text/javascript">
+document.body.onload=function(){
+    document.body.style.webkitOverflowScrolling='touch';
+    document.body.setAttribute('onselectstart','return false');
+    document.body.style.webkitTouchCallout='none';
+    document.body.style.webkitUserSelect='none';
+}
+
+
+function toAr(){
+//location.href='toar://yes';
+Android.toAR();
+}
+
+function toCo(){
+//location.href='toco://yes';
+Android.toCO();
+}
+
+function toVo(){
+//location.href='tovo://yes';
+Android.toVO();
+}
+
+function toTo(){
+//location.href='toto://yes';
+Android.toTO();
+}
+
+function toOt(){
+//location.href='toot://yes';
+Android.toOT();
+}
+
+function toGl(){
+//location.href='togl://yes';
+Android.toGL();
+}
+
+function toGa(){
+//location.href='toga://yes';
+Android.toGA();
+}
+
+function toCh(){
+Android.toCH();
+}
+
+window.onload=function(){
+ddtags_action();
+}
+</script>
+
+</body>
+</html>

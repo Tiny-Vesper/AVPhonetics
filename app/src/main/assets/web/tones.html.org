@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="minimum-scale=1, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" type="text/css" href="ddtags_css.css">
+<script type="text/javascript" src="ddtags.js"></script>
+<title>Vowels</title>
+<style>
+
+@font-face {
+font-family: "OpenSansLight";
+src: url("font/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+font-family: "OpenSansRegular";
+src: url("font/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+
+body{
+font-family: 'OpenSansLight';
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+a{
+text-decoration: none;
+}
+
+#mainDiv{
+position: absolute;
+top: 1%;
+left: 3%;
+width: 96%;
+height: 98%;
+overflow: hidden;
+background-color: rgb(217,222,193);
+}
+
+#contentDiv{
+color: black;
+font-size: 12.5pt;
+width: 98%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-color: rgb(217,222,193);
+-webkit-overflow-scrolling: touch;
+}
+
+#contentDiv a{
+color: rgb(100,100,100);
+}
+
+#vowelsimg{
+    width: 100%;
+}
+
+.CSSButton{
+    display: table;
+    width: 82%;
+    padding-top: 4pt;
+    padding-bottom: 8pt;
+    margin: 0 auto;
+    background-image: url('media/nd/tones_button.png');
+    background-size: 100% 100%;
+    color: rgb(200,200,200);
+}
+
+.CSSButtonTr{
+    display: table-row;
+}
+
+.CSSButtonTd{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+#imgPopUp{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+#imgInPopUp{
+    height: 100%;
+}
+
+
+
+
+.FirstTable{
+    width: 88%;
+    margin: 0 auto;
+    border: 0;
+    border-spacing: 0px 8px;
+}
+
+.FirstTable td{
+    text-align: center;
+    vertical-align: middle;
+    /border: 0;
+}
+
+.FirstTable td a{
+    color: black;
+}
+
+.FirstTable span{
+	padding-left: 18pt;
+	padding-right: 18pt;
+	/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.FirstTd_Title{
+    /* background-color: rgb(210,210,210); */
+}
+
+.SecondTable{
+    width: 88%;
+    margin: 0 auto;
+    border-spacing: 0pt;
+}
+
+.SecondTable td{
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.SecondTable td a{
+    color: black;
+}
+
+.SecondTd_Title{
+    /* background-color: rgb(210,210,210); */
+}
+
+.Chibtn{
+	/* padding-left: 20pt;
+	padding-right: 20pt; */
+	height: 33pt;
+	width: 62%;
+	background-color: rgba(0,0,0,0);
+    background-image: url('media/nd/tones_button.png');
+    background-size: 100% 100%;
+	/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+	padding-top: 2px;
+	padding-bottom: 9px;
+	margin: 0 auto;
+}
+
+.Chibtn td{
+background-color: rgba(0,0,0,0);
+}
+
+.FTButton{
+margin: 0 auto;
+width: 80pt;
+height: 33pt;
+padding-bottom: 7px;
+background-color: rgba(0,0,0,0);
+background-image: url('media/nd/tones_button.png');
+background-size: 100% 100%;
+/* box-shadow: 0px 1px 5px rgb(30,30,30); */
+}
+</style>
+</head>
+<body>
+
+
+<div id="mainDiv">
+<div id="contentDiv">
+
+<img id="vowelsimg" src="tones.png"><br>
+    The IPA provides the following chart for tonal notation which is quite self explanatory. A flat line indicates that the tone is level whereas a contour line indicates the shapes of contour tones. Relative to a vertical shaft, one can have a relatively clear idea how high a tone is relative to other tones.<br><br>The IPA also provides an alternative way of notating tones by putting accent marks on the vowels, as shown in the following picture.
+<br><br>
+
+
+
+It is noteworthy that there are other systems for tonal notation. Among them, Chao's (1930) System of Tone Letters is most common among Chinese linguists. Inspired by music, Chao uses a scale from 1 to 5 to indicate the lowest to the highest tone. Thus, by using a sequence of these numbers, one can effectively indicate the shape of any tone, contour or level. For example, [55] would indicate a high flat tone since it begins with the high tone [5] and ends with another high tone [5]; [51] would be a falling tone spanning the entire range starting for the high [5] to the low [1]. To listen to what these tones sound like, try clicking on any links below:
+<br><br>
+
+<table class="FirstTable" id="ftable_1">
+    <tr><td class="FirstTd_Title">Level tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('01');" svcobj="contentDiv" id="p01" svctsfun="pbtnts('01');" svcmdfun="pbtnte('01');">[55]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('02');" svcobj="contentDiv" id="p02" svctsfun="pbtnts('02');" svcmdfun="pbtnte('02');">[44]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('03');" svcobj="contentDiv" id="p03" svctsfun="pbtnts('03');" svcmdfun="pbtnte('03');">[33]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('04');" svcobj="contentDiv" id="p04" svctsfun="pbtnts('04');" svcmdfun="pbtnte('04');">[22]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('05');" svcobj="contentDiv" id="p05" svctsfun="pbtnts('05');" svcmdfun="pbtnte('05');">[11]</ddtag:btn></td></tr>
+</table>
+
+<br>
+
+<table style="width:100%;border-spacing:0pt 15pt;">
+<tr>
+<td>
+<table class="FirstTable" id="ftable_2">
+    <tr><td class="FirstTd_Title">Rising tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('06');" svcobj="contentDiv" id="p06" svctsfun="pbtnts('06');" svcmdfun="pbtnte('06');">[15]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('07');" svcobj="contentDiv" id="p07" svctsfun="pbtnts('07');" svcmdfun="pbtnte('07');">[35]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('08');" svcobj="contentDiv" id="p08" svctsfun="pbtnts('08');" svcmdfun="pbtnte('08');">[13]</ddtag:btn></td></tr>
+</table>
+</td>
+<td>
+<table class="FirstTable" id="ftable_3">
+    <tr><td class="FirstTd_Title">Falling tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('09');" svcobj="contentDiv" id="p09" svctsfun="pbtnts('09');" svcmdfun="pbtnte('09');">[51]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('10');" svcobj="contentDiv" id="p10" svctsfun="pbtnts('10');" svcmdfun="pbtnte('10');">[53]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('11');" svcobj="contentDiv" id="p11" svctsfun="pbtnts('11');" svcmdfun="pbtnte('11');">[31]</ddtag:btn></td></tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class="FirstTable" id="ftable_4">
+    <tr><td class="FirstTd_Title">Concave tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('12');" svcobj="contentDiv" id="p12" svctsfun="pbtnts('12');" svcmdfun="pbtnte('12');">[214]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('13');" svcobj="contentDiv" id="p13" svctsfun="pbtnts('13');" svcmdfun="pbtnte('13');">[535]</ddtag:btn></td></tr>
+</table>
+</td>
+<td>
+<table class="FirstTable" id="ftable_5">
+    <tr><td class="FirstTd_Title">Convex tones</td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('16');" svcobj="contentDiv" id="p16" svctsfun="pbtnts('16');" svcmdfun="pbtnte('16');">[353]</ddtag:btn></td></tr>
+    <tr><td><ddtag:btn class="FTButton" onsvcclick="plays('17');" svcobj="contentDiv" id="p17" svctsfun="pbtnts('17');" svcmdfun="pbtnte('17');">[131]</ddtag:btn></td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+<br><br>
+The tones you hear above are artificially generated and hence are relatively easy to perceive. In actual language articulation, it is much harder to discern the contours of each tone. Classroom training is required to achieve that kind of competence. Below are some examples from the Cantonese syllable [fʌn].
+<br><br>
+
+<table class="SecondTable">
+    <tr><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('colourful');" svcobj="contentDiv" id="p18" svctsfun="pbtnts('18');" svcmdfun="pbtnte('18');">紛 / 纷</ddtag:btn></td><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('grave');" svcobj="contentDiv" id="p19" svctsfun="pbtnts('19');" svcmdfun="pbtnte('19');">墳 / 坟</ddtag:btn></td></tr>
+    <tr><td>"colourful"</td><td>"grave"</td></tr>
+    <tr><td>[55]</td><td>[21]</td></tr>
+    <tr><td colspan="2" style="height:15pt;"></td></tr>
+    <tr><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('powder');" svcobj="contentDiv" id="p20" svctsfun="pbtnts('20');" svcmdfun="pbtnte('20');">粉</ddtag:btn></td><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('wrath');" svcobj="contentDiv" id="p21" svctsfun="pbtnts('21');" svcmdfun="pbtnte('21');">憤 / 愤</ddtag:btn></td></tr>
+    <tr><td>"powder"</td><td>"wrath"</td></tr>
+    <tr><td>[35]</td><td>[13]</td></tr>
+    <tr><td colspan="2" style="height:15pt;"></td></tr>
+    <tr><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('sleep');" svcobj="contentDiv" id="p22" svctsfun="pbtnts('22');" svcmdfun="pbtnte('22');">瞓</ddtag:btn></td><td class="SecondTd_Title"><ddtag:btn class="Chibtn" onsvcclick="plays('share');" svcobj="contentDiv" id="p23" svctsfun="pbtnts('23');" svcmdfun="pbtnte('23');">份</ddtag:btn></td></tr>
+    <tr><td>"sleep"</td><td>"share"</td></tr>
+    <tr><td>[33]</td><td>[22]</td></tr>
+</table>
+
+
+<br><br>
+Linguists interested in tonal system of South American languages use a slightly different system. Like Chao, a numerical scale of 1-5 is used, except that for them 5 is the lowest tone and 1 the highest.
+<br>
+
+
+</div>
+</div>
+
+
+
+<div id="imgPopUp" style="display:none;background:#FFF;">
+    <img id="imgInPopUp" src="tones.png"><br><span ontouchend="document.getElementById('imgPopUp').style.display='none';isInImg=false;" style="color:black;font-size:18pt;">Close</span>
+</div>
+
+
+<script type="text/javascript">
+
+document.body.onload=function(){
+document.body.style.webkitOverflowScrolling='touch';
+document.body.setAttribute('onselectstart','return false');
+document.body.style.webkitTouchCallout='none';
+document.body.style.webkitUserSelect='none';
+}
+
+
+function plays(_sname){
+    //location.href='plays://'+_sname;
+	Android.play(_sname);
+}
+
+
+function toNext(){
+    //location.href='totonesb://';
+}
+
+
+
+
+
+
+var isInImg=false;
+
+document.getElementById('vowelsimg').ontouchend=function(){document.getElementById('imgPopUp').style.display='';isInImg=true;};
+
+
+
+var imgpHeight=100;
+var nobj=document.getElementById('imgInPopUp');
+var bobj=document.getElementById('imgPopUp');
+
+
+function scaleImg(_scale){
+    document.getElementById('imgInPopUp').style.height=(imgpHeight*_scale)+'%';
+}
+
+
+function funcGestureStart(e){}
+
+function funcGestureChange(e){
+        scaleImg(e.scale);
+}
+    
+function funcGestureEnd(e){
+        imgpWidth=parseInt(nobj.style.width);
+        imgpHeight=parseInt(nobj.style.height);
+}
+
+
+var pinchDistance = 0;
+bobj.addEventListener('touchstart',function(e){
+    if(e.touches.length > 1){
+		e.preventDefault();
+        pinchDistance = Math.sqrt(Math.pow((e.touches[1].pageX - e.touches[0].pageX),2)+Math.pow((e.touches[1].pageY - e.touches[0].pageY),2));
+        funcGestureStart(e);
+    } else {
+        pinchDistance = 0;
+    }
+},false);
+bobj.addEventListener('touchmove', function (e) {
+    if (pinchDistance <= 0) {
+        return;
+    }
+	e.preventDefault();
+    var newDistance = Math.sqrt(Math.pow((e.touches[1].pageX - e.touches[0].pageX),2)+Math.pow((e.touches[1].pageY - e.touches[0].pageY),2));
+    var event = {scale: newDistance / pinchDistance};
+    funcGestureChange(event);
+});
+bobj.addEventListener('touchend', function (e) {
+    if (pinchDistance <= 0) {
+        return;
+    }
+	e.preventDefault();
+    funcGestureEnd(e);
+});
+
+
+
+function pbtnts(_p){
+document.getElementById('p'+_p).style.backgroundImage='url(\'media/nd/tones_button_b.png\')';
+}
+function pbtnte(_p){
+document.getElementById('p'+_p).style.backgroundImage='url(\'media/nd/tones_button.png\')';
+}
+
+</script>
+</body>
+</html>
