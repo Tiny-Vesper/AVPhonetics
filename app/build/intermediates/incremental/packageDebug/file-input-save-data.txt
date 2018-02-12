@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 12 14:58:48 HKT 2018
+#Mon Feb 12 16:37:21 HKT 2018
 1073.file=/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/assets/debug/jquery/images/icons-svg/action-white.svg
 1090.base=/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/res/resources-debug.ap_
 1007.base=/Users/arc1/Documents/GitHub/AVPhonetics/app/build/intermediates/res/resources-debug.ap_
